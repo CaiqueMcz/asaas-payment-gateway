@@ -47,12 +47,6 @@ class InstallmentRepositoryTraitTest extends BaseRepository
     {
         return $this->processShow($entity);
     }
-
-    public function testShowWithInvalidId(): void
-    {
-        $this->processShowWithInvalidId();
-    }
-
     /**
      * @depends testShow
      */

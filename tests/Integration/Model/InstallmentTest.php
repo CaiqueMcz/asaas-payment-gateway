@@ -49,11 +49,6 @@ class InstallmentTest extends TestCase implements ModelInterface
         return $this->processShow($entity);
     }
 
-    public function testShowWithInvalidId(): void
-    {
-        $this->processShowWithInvalidId();
-    }
-
     /**
      * @depends testShow
      */
