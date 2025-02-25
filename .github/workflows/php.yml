@@ -1,0 +1,65 @@
+name: PHP Tests
+on:
+  push:
+    branches: [ "main", "master", "develop" ]
+  pull_request:
+    branches: [ "main", "master", "develop" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php-versions: ['7.4', '8.0', '8.1']
+
+    name: PHP ${{ matrix.php-versions }} Tests
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: ${{ matrix.php-versions }}
+        extensions: mbstring, intl, json, xml, curl
+        coverage: xdebug
+
+    - name: Validate composer.json and composer.lock
+      run: composer validate
+
+    - name: Cache Composer packages
+      id: composer-cache
+      uses: actions/cache@v3
+      with:
+        path: vendor
+        key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-php-
+
+    - name: Install dependencies
+      run: composer install --prefer-dist --no-progress
+
+    - name: Create Test Environment Variables
+      run: |
+        echo "ASAAS_SANDBOX_API_TOKEN=${{ secrets.ASAAS_SANDBOX_API_TOKEN }}" >> $GITHUB_ENV
+        echo "ASAAS_SANDBOX_WEBHOOK_TOKEN=${{ secrets.ASAAS_SANDBOX_WEBHOOK_TOKEN }}" >> $GITHUB_ENV
+        echo "ASAAS_DEFAULT_CUSTOMER=${{ secrets.ASAAS_DEFAULT_CUSTOMER }}" >> $GITHUB_ENV
+        echo "ASAAS_SPLIT_WALLET_ID=${{ secrets.ASAAS_SPLIT_WALLET_ID }}" >> $GITHUB_ENV
+        echo "ASAAS_CREDIT_CARD_TOKENIZED=${{ secrets.ASAAS_CREDIT_CARD_TOKENIZED }}" >> $GITHUB_ENV
+        echo "ASAAS_PAID_SLIPBANK=${{ secrets.ASAAS_PAID_SLIPBANK }}" >> $GITHUB_ENV
+        echo "ASAAS_SLIPBANK_INSTALLMENT_ID=${{ secrets.ASAAS_SLIPBANK_INSTALLMENT_ID }}" >> $GITHUB_ENV
+        echo "APP_ENV=sandbox" >> $GITHUB_ENV
+
+    - name: Run Unit Tests
+      run: vendor/bin/phpunit tests/Unit --testdox
+
+    - name: Run Feature Tests (With Mocks)
+      run: vendor/bin/phpunit tests/Feature --testdox
+      
+    # Integration tests are disabled by default as they require real API credentials
+    # - name: Run Integration Tests
+    #   if: ${{ env.ASAAS_SANDBOX_API_TOKEN != '' }}
+    #   run: vendor/bin/phpunit tests/Integration --testdox
