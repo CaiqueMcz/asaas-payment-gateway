@@ -1,0 +1,23 @@
+{
+  "object": "installment",
+  "id": "1a63f1d5-5d4c-435c-b5f2-e2cc916b3e14",
+  "value": 240.00,
+  "netValue": 231.16,
+  "paymentValue": 120.00,
+  "installmentCount": 2,
+  "billingType": "CREDIT_CARD",
+  "paymentDate": "2025-02-24",
+  "description": "Installment #d3d5c097-c2f0-3934-a062-10369b5049c1",
+  "expirationDay": 26,
+  "deleted": false,
+  "dateCreated": "2025-02-24",
+  "customer": "cus_000006524175",
+  "paymentLink": null,
+  "transactionReceiptUrl": "https://sandbox.asaas.com/comprovantes/0302081394090254",
+  "creditCard": {
+    "creditCardNumber": "${lastDigits}",
+    "creditCardBrand": "VISA",
+    "creditCardToken": "uuid"
+  },
+  "refunds": null
+}

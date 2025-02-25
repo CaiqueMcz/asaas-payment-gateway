@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="Unit">
+            <directory>./tests/Unit</directory>
+        </testsuite>
+        <testsuite name="Feature">
+            <directory>./tests/Feature</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <env name="APP_ENV" value="test"/>
+        <env name="ASAAS_SANDBOX_API_TOKEN"
+             value=''/>
+        <env name="ASAAS_SANDBOX_WEBHOOK_TOKEN"
+             value=''/>
+        <env name="ASAAS_DEFAULT_CUSTOMER"
+             value=''/>
+        <env name="ASAAS_CREDIT_CARD_TOKENIZED"
+             value=''/>
+        <env name="ASAAS_SLIPBANK_INSTALLMENT_ID"
+             value=''/>
+        <env name="ASAAS_PAID_SLIPBANK"
+             value=''/>
+        <env name="ASAAS_SPLIT_WALLET_ID"
+             value=''/>
+    </php>
+</phpunit>

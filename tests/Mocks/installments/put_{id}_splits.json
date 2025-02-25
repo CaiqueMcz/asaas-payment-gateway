@@ -1,0 +1,28 @@
+{
+  "splits": [
+    {
+      "id": "4738c97d-f14e-4acd-8ca3-02d7bac77116",
+      "walletId": "1224057b-ac75-41b3-a6cc-be7eeffdae8c",
+      "fixedValue": null,
+      "percentualValue": 11.0000,
+      "totalValue": 12.71,
+      "cancellationReason": null,
+      "status": "PENDING",
+      "externalReference": null,
+      "description": null,
+      "installmentNumber": 1
+    },
+    {
+      "id": "b6270b61-f62a-46f2-90a4-d20095e60596",
+      "walletId": "1224057b-ac75-41b3-a6cc-be7eeffdae8c",
+      "fixedValue": null,
+      "percentualValue": 11.0000,
+      "totalValue": 12.71,
+      "cancellationReason": null,
+      "status": "PENDING",
+      "externalReference": null,
+      "description": null,
+      "installmentNumber": 2
+    }
+  ]
+}

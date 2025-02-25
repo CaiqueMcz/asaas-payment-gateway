@@ -1,0 +1,19 @@
+{
+  "object": "installment",
+  "id": "19575561-7231-4d50-b36e-1146542fbd0b",
+  "value": 250,
+  "netValue": 246.02,
+  "paymentValue": 125,
+  "installmentCount": 2,
+  "billingType": "BOLETO",
+  "paymentDate": null,
+  "description": "",
+  "expirationDay": 14,
+  "deleted": false,
+  "dateCreated": "2025-02-23",
+  "customer": "cus_000006524175",
+  "paymentLink": null,
+  "transactionReceiptUrl": null,
+  "creditCard": null,
+  "refunds": null
+}

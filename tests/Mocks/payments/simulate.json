@@ -1,0 +1,29 @@
+{
+  "value": 100,
+  "creditCard": {
+    "netValue": 100,
+    "feePercentage": 2.49,
+    "operationFee": 0.49,
+    "installment": {
+      "paymentNetValue": 48.52,
+      "paymentValue": 50
+    }
+  },
+  "bankSlip": {
+    "netValue": 98.02,
+    "feeValue": 0.99,
+    "installment": {
+      "paymentNetValue": 48.52,
+      "paymentValue": 50
+    }
+  },
+  "pix": {
+    "netValue": 98.02,
+    "feePercentage": null,
+    "feeValue": 0.99,
+    "installment": {
+      "paymentNetValue": 48.52,
+      "paymentValue": 50
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "object": "list",
+  "hasMore": false,
+  "totalCount": 4,
+  "limit": 10,
+  "offset": 0,
+  "data": [
+    {
+      "id": "e52e474b-990c-49b8-9b9e-6de6faf481b5",
+      "walletId": "1224057b-ac75-41b3-a6cc-be7eeffdae8c",
+      "fixedValue": null,
+      "percentualValue": 10.0000,
+      "totalValue": 11.55,
+      "cancellationReason": null,
+      "status": "PENDING",
+      "externalReference": null,
+      "description": null
+    },
+    {
+      "id": "aca4c141-3ae2-4fd4-8c08-4f30ff46a442",
+      "walletId": "1224057b-ac75-41b3-a6cc-be7eeffdae8c",
+      "fixedValue": null,
+      "percentualValue": 10.0000,
+      "totalValue": 11.55,
+      "cancellationReason": null,
+      "status": "PENDING",
+      "externalReference": null,
+      "description": null
+    },
+    {
+      "id": "f0f62801-0531-4ec5-9b0b-9d8bd3630040",
+      "walletId": "1224057b-ac75-41b3-a6cc-be7eeffdae8c",
+      "fixedValue": null,
+      "percentualValue": 10.0000,
+      "totalValue": 11.55,
+      "cancellationReason": null,
+      "status": "DONE",
+      "externalReference": null,
+      "description": null
+    },
+    {
+      "id": "deedf372-d142-4da2-8c28-474c2340b5e7",
+      "walletId": "1224057b-ac75-41b3-a6cc-be7eeffdae8c",
+      "fixedValue": null,
+      "percentualValue": 10.0000,
+      "totalValue": 11.55,
+      "cancellationReason": null,
+      "status": "AWAITING_CREDIT",
+      "externalReference": null,
+      "description": null
+    }
+  ]
+}

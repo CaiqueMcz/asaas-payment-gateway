@@ -1,0 +1,9 @@
+{
+  "creation": {
+    "daily": {
+      "limit": 10,
+      "used": 5,
+      "wasReached": null
+    }
+  }
+}

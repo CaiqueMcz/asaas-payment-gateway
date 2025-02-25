@@ -1,0 +1,44 @@
+{
+  "object": "installment",
+  "id": "${refundId}",
+  "value": 240,
+  "netValue": 231.16,
+  "paymentValue": 120,
+  "installmentCount": 2,
+  "billingType": "CREDIT_CARD",
+  "paymentDate": "2025-02-24",
+  "description": "Installment #eb76db82-ab76-39d3-bf38-ad0022b9a519",
+  "expirationDay": 26,
+  "deleted": false,
+  "dateCreated": "2025-02-24",
+  "customer": "cus_000006524175",
+  "paymentLink": null,
+  "transactionReceiptUrl": "https://sandbox.asaas.com/comprovantes/8368171564259249",
+  "creditCard": {
+    "creditCardNumber": "8186",
+    "creditCardBrand": "ELO",
+    "creditCardToken": "uuid"
+  },
+  "refunds": [
+    {
+      "dateCreated": "2025-02-24 16:14:13",
+      "status": "DONE",
+      "value": 120.00,
+      "endToEndIdentifier": null,
+      "description": null,
+      "transactionReceiptUrl": null,
+      "refundedSplits": null,
+      "paymentId": "pay_1fjqdhjqfnsc0xoz"
+    },
+    {
+      "dateCreated": "2025-02-24 16:14:13",
+      "status": "DONE",
+      "value": 120.00,
+      "endToEndIdentifier": null,
+      "description": null,
+      "transactionReceiptUrl": null,
+      "refundedSplits": null,
+      "paymentId": "pay_x8ah3hfrqpw1x408"
+    }
+  ]
+}

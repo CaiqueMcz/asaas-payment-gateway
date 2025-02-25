@@ -1,0 +1,16 @@
+{
+  "object": "paymentDocument",
+  "id": "${documentId}",
+  "name": "sample.pdf",
+  "type": "INVOICE",
+  "availableAfterPayment": true,
+  "file": {
+    "publicId": "TSrLvzPGF7HPQhYu9OZhZSBX3mm1sxpToEcFm30imOM3sKEjhzCc1zAIuqQ7n11",
+    "originalName": "sample.pdf",
+    "size": 14499,
+    "extension": "pdf",
+    "previewUrl": "https://example.com/download",
+    "downloadUrl": "https://example.com/download"
+  },
+  "deleted": false
+}

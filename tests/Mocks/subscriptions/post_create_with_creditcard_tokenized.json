@@ -1,0 +1,40 @@
+{
+  "object": "subscription",
+  "id": "sub_2jzrjj1hhojqntjn",
+  "dateCreated": "2025-02-25",
+  "customer": "cus_000006524175",
+  "paymentLink": null,
+  "value": 51.79,
+  "nextDueDate": "2025-04-02",
+  "cycle": "MONTHLY",
+  "description": "Subscription #77d8b066-36cf-3863-8d67-3f79235e2ff0",
+  "billingType": "CREDIT_CARD",
+  "deleted": false,
+  "status": "ACTIVE",
+  "externalReference": "5f693ca2-395d-3a6f-8f73-02b302ad5283",
+  "creditCard": {
+    "creditCardNumber": "2728",
+    "creditCardBrand": "AMEX",
+    "creditCardToken": "uuid"
+  },
+  "sendPaymentByPostalService": false,
+  "fine": {
+    "value": 0,
+    "type": "FIXED"
+  },
+  "interest": {
+    "value": 0,
+    "type": "PERCENTAGE"
+  },
+  "split": [
+    {
+      "walletId": "1224057b-ac75-41b3-a6cc-be7eeffdae8c",
+      "fixedValue": null,
+      "percentualValue": 1.0000,
+      "externalReference": null,
+      "description": null,
+      "status": "ACTIVE",
+      "disabledReason": null
+    }
+  ]
+}

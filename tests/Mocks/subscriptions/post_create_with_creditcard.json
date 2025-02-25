@@ -1,0 +1,40 @@
+{
+  "object": "subscription",
+  "id": "sub_jzeoefe9kpwvs47y",
+  "dateCreated": "2025-02-25",
+  "customer": "cus_000006524175",
+  "paymentLink": null,
+  "value": 46.00,
+  "nextDueDate": "2025-04-02",
+  "cycle": "MONTHLY",
+  "description": "Subscription #2aaebc97-9eaf-3a8c-9a3f-a22e531f7d7b",
+  "billingType": "CREDIT_CARD",
+  "deleted": false,
+  "status": "ACTIVE",
+  "externalReference": "7c9ffa61-cca4-358c-a02b-25084b593662",
+  "creditCard": {
+    "creditCardNumber": "2244",
+    "creditCardBrand": "HIPERCARD",
+    "creditCardToken": "uuid"
+  },
+  "sendPaymentByPostalService": false,
+  "fine": {
+    "value": 0.00,
+    "type": "FIXED"
+  },
+  "interest": {
+    "value": 0.00,
+    "type": "PERCENTAGE"
+  },
+  "split": [
+    {
+      "walletId": "1224057b-ac75-41b3-a6cc-be7eeffdae8c",
+      "fixedValue": null,
+      "percentualValue": 15.0000,
+      "externalReference": null,
+      "description": null,
+      "status": "ACTIVE",
+      "disabledReason": null
+    }
+  ]
+}
