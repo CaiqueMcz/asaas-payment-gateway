@@ -58,7 +58,8 @@ jobs:
 
     - name: Run Feature Tests (With Mocks)
       run: vendor/bin/phpunit tests/Feature --testdox
-      
+    - name: Attest Build Provenance
+      uses: actions/attest-build-provenance@v2.2.0
     # Integration tests are disabled by default as they require real API credentials
     # - name: Run Integration Tests
     #   if: ${{ env.ASAAS_SANDBOX_API_TOKEN != '' }}
