@@ -63,7 +63,6 @@ jobs:
       uses: actions/attest-build-provenance@v2.2.0
       with:
         subject-path: |
-          vendor/
           src/
     # Integration tests are disabled by default as they require real API credentials
     # - name: Run Integration Tests
