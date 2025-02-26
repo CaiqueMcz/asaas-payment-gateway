@@ -64,7 +64,6 @@ jobs:
       with:
         subject-path: |
           src/
-          vendor/
     # Integration tests are disabled by default as they require real API credentials
     # - name: Run Integration Tests
     #   if: ${{ env.ASAAS_SANDBOX_API_TOKEN != '' }}
