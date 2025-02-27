@@ -4,7 +4,7 @@ Uma biblioteca **não-oficial** para integração com a plataforma Asaas, desenv
 ## Instalação
 
 ```bash
-composer require caique-marcelino/asaas-payment-gateway
+composer require caiquemcz/asaas-payment-gateway
 ```
 
 ## Inicialização
