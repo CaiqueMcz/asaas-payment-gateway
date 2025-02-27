@@ -1,5 +1,5 @@
 {
-  "name": "caique-marcelino/asaas-payment-gateway",
+  "name": "CaiqueMcz/asaas-payment-gateway",
   "description": "SDK for Asaas Payment integration",
   "type": "library",
   "require": {
