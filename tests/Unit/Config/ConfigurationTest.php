@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Config;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Config;
 
-use AsaasPaymentGateway\Config\Configuration;
+use CaiqueMcz\AsaasPaymentGateway\Config\Configuration;
 use PHPUnit\Framework\TestCase;
 
 class ConfigurationTest extends TestCase

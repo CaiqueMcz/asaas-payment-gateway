@@ -1,6 +1,6 @@
 <?php
 
-namespace AsaasPaymentGateway\Exception;
+namespace CaiqueMcz\AsaasPaymentGateway\Exception;
 
 use Exception;
 

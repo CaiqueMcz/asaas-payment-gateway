@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Exception;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Exception;
 
-use AsaasPaymentGateway\Exception\AsaasValidationException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasValidationException;
 use PHPUnit\Framework\TestCase;
 
 class AsaasValidationExceptionTest extends TestCase

@@ -1,16 +1,16 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Integration\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Integration\Model;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Model\Installment;
-use AsaasPaymentGateway\Tests\Traits\DataTrait\InstallmentDataTrait;
-use AsaasPaymentGateway\Tests\Traits\GatewayTrait;
-use AsaasPaymentGateway\Tests\Traits\InstallmentTrait;
-use AsaasPaymentGateway\Tests\Traits\Model\CreateAbleTrait;
-use AsaasPaymentGateway\Tests\Traits\Model\DeleteAbleTrait;
-use AsaasPaymentGateway\Tests\Traits\Model\ListAbleTrait;
-use AsaasPaymentGateway\Tests\Traits\Model\ShowAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Model\Installment;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\DataTrait\InstallmentDataTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\GatewayTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\InstallmentTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model\CreateAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model\DeleteAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model\ListAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model\ShowAbleTrait;
 use GuzzleHttp\Exception\GuzzleException;
 use PHPUnit\Framework\TestCase;
 

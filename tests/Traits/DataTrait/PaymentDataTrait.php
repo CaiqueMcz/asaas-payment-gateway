@@ -1,14 +1,14 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits\DataTrait;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits\DataTrait;
 
-use AsaasPaymentGateway\Enums\Payments\BillingType;
-use AsaasPaymentGateway\Enums\Payments\DiscountType;
-use AsaasPaymentGateway\Helpers\Utils;
-use AsaasPaymentGateway\Model\Payment;
-use AsaasPaymentGateway\Repository\PaymentRepository;
-use AsaasPaymentGateway\Tests\Traits\HasFieldInfo;
-use AsaasPaymentGateway\ValueObject\Payments\Discount;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\BillingType;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\DiscountType;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\Repository\PaymentRepository;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\HasFieldInfo;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Discount;
 
 trait PaymentDataTrait
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace AsaasPaymentGateway\Repository;
+namespace CaiqueMcz\AsaasPaymentGateway\Repository;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Exception\AsaasValidationException;
-use AsaasPaymentGateway\Model\Payment;
-use AsaasPaymentGateway\Response\ListResponse;
-use AsaasPaymentGateway\ValueObject\Payments\Limits\PaymentLimitsResponse;
-use AsaasPaymentGateway\ValueObject\Payments\PaymentDocument;
-use AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasValidationException;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Limits\PaymentLimitsResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PaymentDocument;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
 use GuzzleHttp\Exception\GuzzleException;
 
 /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace AsaasPaymentGateway\Config;
+namespace CaiqueMcz\AsaasPaymentGateway\Config;
 
 /**
  * Configuration class for the Asaas Payment Gateway

@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\ValueObject\Payments\BankSlip;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\BankSlip;
 use PHPUnit\Framework\TestCase;
 
 class BankSlipTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\ValueObject\Payments\Limits;
+namespace CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Limits;
 
-use AsaasPaymentGateway\ValueObject\ArrayableInterface;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\ArrayableInterface;
 
 class PaymentCreationLimits implements ArrayableInterface
 {

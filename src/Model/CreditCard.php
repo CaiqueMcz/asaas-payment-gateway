@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Model;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCard as CreditCardValueObject;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard as CreditCardValueObject;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
 
 class CreditCard extends AbstractModel
 {

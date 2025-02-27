@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\ValueObject\Payments\PaymentDocument;
-use AsaasPaymentGateway\ValueObject\Payments\PaymentDocumentFile;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PaymentDocument;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PaymentDocumentFile;
 use PHPUnit\Framework\TestCase;
 
 class PaymentDocumentTest extends TestCase

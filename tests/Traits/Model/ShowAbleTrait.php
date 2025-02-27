@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model;
 
-use AsaasPaymentGateway\Exception\AsaasPageNotFoundException;
-use AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasPageNotFoundException;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
 
 trait ShowAbleTrait
 {

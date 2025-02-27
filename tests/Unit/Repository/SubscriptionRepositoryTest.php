@@ -1,12 +1,12 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Repository;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Repository;
 
-use AsaasPaymentGateway\Http\Client;
-use AsaasPaymentGateway\Model\Payment;
-use AsaasPaymentGateway\Model\Subscription;
-use AsaasPaymentGateway\Repository\SubscriptionRepository;
-use AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Http\Client;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\Model\Subscription;
+use CaiqueMcz\AsaasPaymentGateway\Repository\SubscriptionRepository;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;

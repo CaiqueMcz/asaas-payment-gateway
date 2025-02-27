@@ -1,13 +1,13 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits\DataTrait;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits\DataTrait;
 
-use AsaasPaymentGateway\Enums\Payments\BillingType;
-use AsaasPaymentGateway\Helpers\Utils;
-use AsaasPaymentGateway\Model\Installment;
-use AsaasPaymentGateway\Repository\InstallmentRepository;
-use AsaasPaymentGateway\Tests\Traits\HasFieldInfo;
-use AsaasPaymentGateway\ValueObject\Payments\SplitList;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\BillingType;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Model\Installment;
+use CaiqueMcz\AsaasPaymentGateway\Repository\InstallmentRepository;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\HasFieldInfo;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\SplitList;
 
 /**
  * @property \Faker\Generator $faker

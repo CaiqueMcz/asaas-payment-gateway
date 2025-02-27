@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments\Limits;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments\Limits;
 
-use AsaasPaymentGateway\ValueObject\Payments\Limits\PaymentCreationLimits;
-use AsaasPaymentGateway\ValueObject\Payments\Limits\PaymentDailyLimits;
-use AsaasPaymentGateway\ValueObject\Payments\Limits\PaymentLimitsResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Limits\PaymentCreationLimits;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Limits\PaymentDailyLimits;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Limits\PaymentLimitsResponse;
 use PHPUnit\Framework\TestCase;
 
 class PaymentLimitsTest extends TestCase

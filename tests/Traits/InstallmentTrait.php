@@ -1,18 +1,18 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Helpers\Utils;
-use AsaasPaymentGateway\Model\AbstractModel;
-use AsaasPaymentGateway\Model\Installment;
-use AsaasPaymentGateway\Model\Payment;
-use AsaasPaymentGateway\Model\Split;
-use AsaasPaymentGateway\Response\ListResponse;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCard;
-use AsaasPaymentGateway\ValueObject\Payments\Refund;
-use AsaasPaymentGateway\ValueObject\Payments\RefundList;
-use AsaasPaymentGateway\ValueObject\Payments\SplitList;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Model\Installment;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\Model\Split;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Refund;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\RefundList;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\SplitList;
 use Exception;
 use GuzzleHttp\Exception\GuzzleException;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\Enums\Payments\DiscountType;
-use AsaasPaymentGateway\ValueObject\Payments\Discount;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\DiscountType;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Discount;
 use PHPUnit\Framework\TestCase;
 
 class DiscountValueObjectTest extends TestCase

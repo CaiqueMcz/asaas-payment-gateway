@@ -1,12 +1,12 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Http;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Http;
 
-use AsaasPaymentGateway\Config\Configuration;
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Exception\AsaasValidationException;
-use AsaasPaymentGateway\Gateway;
-use AsaasPaymentGateway\Http\Client;
+use CaiqueMcz\AsaasPaymentGateway\Config\Configuration;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasValidationException;
+use CaiqueMcz\AsaasPaymentGateway\Gateway;
+use CaiqueMcz\AsaasPaymentGateway\Http\Client;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Handler\MockHandler;

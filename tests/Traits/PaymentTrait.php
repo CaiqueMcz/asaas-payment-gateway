@@ -1,22 +1,22 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits;
 
-use AsaasPaymentGateway\Enums\Payments\BillingType;
-use AsaasPaymentGateway\Enums\Payments\DocumentType;
-use AsaasPaymentGateway\Enums\Payments\PaymentStatus;
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Helpers\Utils;
-use AsaasPaymentGateway\Model\Payment;
-use AsaasPaymentGateway\Response\BillingInfoResponse;
-use AsaasPaymentGateway\Response\ListResponse;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCard;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
-use AsaasPaymentGateway\ValueObject\Payments\Installment;
-use AsaasPaymentGateway\ValueObject\Payments\Limits\PaymentLimitsResponse;
-use AsaasPaymentGateway\ValueObject\Payments\PaymentDocument;
-use AsaasPaymentGateway\ValueObject\Payments\PaymentDocumentFile;
-use AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\BillingType;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\DocumentType;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\PaymentStatus;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\Response\BillingInfoResponse;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Installment;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Limits\PaymentLimitsResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PaymentDocument;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PaymentDocumentFile;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
 use Exception;
 use GuzzleHttp\Exception\GuzzleException;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace AsaasPaymentGateway\Repository;
+namespace CaiqueMcz\AsaasPaymentGateway\Repository;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Model\Payment;
-use AsaasPaymentGateway\Model\Subscription;
-use AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\Model\Subscription;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
 use GuzzleHttp\Exception\GuzzleException;
 
 class SubscriptionRepository extends AbstractRepository

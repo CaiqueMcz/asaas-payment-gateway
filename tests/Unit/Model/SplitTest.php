@@ -1,11 +1,11 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Model;
 
-use AsaasPaymentGateway\Enums\Splits\SplitStatus;
-use AsaasPaymentGateway\Model\Split;
-use AsaasPaymentGateway\Repository\SplitRepository;
-use AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Splits\SplitStatus;
+use CaiqueMcz\AsaasPaymentGateway\Model\Split;
+use CaiqueMcz\AsaasPaymentGateway\Repository\SplitRepository;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
 use PHPUnit\Framework\TestCase;
 
 class SplitTest extends TestCase

@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model;
 
-use AsaasPaymentGateway\Model\AbstractModel;
-use AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
 
 trait ListAbleTrait
 {

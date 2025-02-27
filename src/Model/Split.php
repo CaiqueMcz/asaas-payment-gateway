@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Model;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Repository\SplitRepository;
-use AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Repository\SplitRepository;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
 
 /**
  * Split Model

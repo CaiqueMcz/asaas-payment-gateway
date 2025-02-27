@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway;
+namespace CaiqueMcz\AsaasPaymentGateway;
 
-use AsaasPaymentGateway\Config\Configuration;
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Http\Client;
+use CaiqueMcz\AsaasPaymentGateway\Config\Configuration;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Http\Client;
 
 class Gateway
 {

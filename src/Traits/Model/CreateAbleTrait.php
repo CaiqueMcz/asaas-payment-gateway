@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Traits\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Traits\Model;
 
-use AsaasPaymentGateway\Helpers\Utils;
-use AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
 
 trait CreateAbleTrait
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace AsaasPaymentGateway\Repository;
+namespace CaiqueMcz\AsaasPaymentGateway\Repository;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Exception\AsaasValidationException;
-use AsaasPaymentGateway\Gateway;
-use AsaasPaymentGateway\Http\Client;
-use AsaasPaymentGateway\Model\AbstractModel;
-use AsaasPaymentGateway\Response\ListResponse;
-use AsaasPaymentGateway\ValueObject\ArrayableInterface;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasValidationException;
+use CaiqueMcz\AsaasPaymentGateway\Gateway;
+use CaiqueMcz\AsaasPaymentGateway\Http\Client;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\ArrayableInterface;
 use GuzzleHttp\Exception\GuzzleException;
 use ReflectionClass;
 use ReflectionException;

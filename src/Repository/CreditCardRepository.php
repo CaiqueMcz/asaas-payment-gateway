@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Repository;
+namespace CaiqueMcz\AsaasPaymentGateway\Repository;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
 use GuzzleHttp\Exception\GuzzleException;
 use ReflectionException;
 

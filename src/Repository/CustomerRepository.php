@@ -1,6 +1,6 @@
 <?php
 
-namespace AsaasPaymentGateway\Repository;
+namespace CaiqueMcz\AsaasPaymentGateway\Repository;
 
 class CustomerRepository extends AbstractRepository
 {

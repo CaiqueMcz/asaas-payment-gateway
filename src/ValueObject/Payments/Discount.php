@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments;
 
-use AsaasPaymentGateway\Enums\Payments\DiscountType;
-use AsaasPaymentGateway\ValueObject\ArrayableInterface;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\DiscountType;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\ArrayableInterface;
 
 class Discount implements ArrayableInterface
 {

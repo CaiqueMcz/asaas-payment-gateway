@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Repository\AbstractRepository;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Repository\AbstractRepository;
 
-use AsaasPaymentGateway\Repository\AbstractRepository;
+use CaiqueMcz\AsaasPaymentGateway\Repository\AbstractRepository;
 
 class DummyRepository extends AbstractRepository
 {

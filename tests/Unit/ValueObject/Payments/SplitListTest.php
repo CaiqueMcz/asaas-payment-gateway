@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Model\Split;
-use AsaasPaymentGateway\ValueObject\Payments\SplitList;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Model\Split;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\SplitList;
 use PHPUnit\Framework\TestCase;
 
 class SplitListTest extends TestCase

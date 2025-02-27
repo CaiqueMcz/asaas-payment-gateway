@@ -1,13 +1,13 @@
 <?php
 
-namespace AsaasPaymentGateway\Http;
+namespace CaiqueMcz\AsaasPaymentGateway\Http;
 
-use AsaasPaymentGateway\Config\Configuration;
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Exception\AsaasPageNotFoundException;
-use AsaasPaymentGateway\Exception\AsaasValidationException;
-use AsaasPaymentGateway\Gateway;
-use AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Config\Configuration;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasPageNotFoundException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasValidationException;
+use CaiqueMcz\AsaasPaymentGateway\Gateway;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
 use Exception;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\GuzzleException;

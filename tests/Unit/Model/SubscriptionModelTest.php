@@ -1,21 +1,21 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Model;
 
-use AsaasPaymentGateway\Enums\Payments\BillingType;
-use AsaasPaymentGateway\Enums\Payments\DiscountType;
-use AsaasPaymentGateway\Enums\Payments\FineType;
-use AsaasPaymentGateway\Enums\Subscriptions\SubscriptionCycle;
-use AsaasPaymentGateway\Enums\Subscriptions\SubscriptionStatus;
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Helpers\CDate;
-use AsaasPaymentGateway\Model\Subscription;
-use AsaasPaymentGateway\Repository\SubscriptionRepository;
-use AsaasPaymentGateway\Response\ListResponse;
-use AsaasPaymentGateway\ValueObject\Payments\Discount;
-use AsaasPaymentGateway\ValueObject\Payments\Fine;
-use AsaasPaymentGateway\ValueObject\Payments\Interest;
-use AsaasPaymentGateway\ValueObject\Payments\SplitList;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\BillingType;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\DiscountType;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\FineType;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Subscriptions\SubscriptionCycle;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Subscriptions\SubscriptionStatus;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\CDate;
+use CaiqueMcz\AsaasPaymentGateway\Model\Subscription;
+use CaiqueMcz\AsaasPaymentGateway\Repository\SubscriptionRepository;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Discount;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Fine;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Interest;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\SplitList;
 use GuzzleHttp\Exception\GuzzleException;
 use PHPUnit\Framework\TestCase;
 

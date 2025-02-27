@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits;
 
-use AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
 
 trait CreditCardTrait
 {

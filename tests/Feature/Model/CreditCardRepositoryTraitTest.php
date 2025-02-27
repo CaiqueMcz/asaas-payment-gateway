@@ -1,11 +1,11 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Feature\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Feature\Model;
 
-use AsaasPaymentGateway\Model\CreditCard;
-use AsaasPaymentGateway\Tests\Traits\CreditCardTrait;
-use AsaasPaymentGateway\Tests\Traits\DataTrait\CreditCardDataTrait;
-use AsaasPaymentGateway\Tests\Traits\GatewayTrait;
+use CaiqueMcz\AsaasPaymentGateway\Model\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\CreditCardTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\DataTrait\CreditCardDataTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\GatewayTrait;
 
 class CreditCardRepositoryTraitTest extends BaseRepository
 {

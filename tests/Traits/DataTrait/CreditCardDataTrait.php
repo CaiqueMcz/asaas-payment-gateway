@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits\DataTrait;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits\DataTrait;
 
-use AsaasPaymentGateway\Model\CreditCard;
-use AsaasPaymentGateway\Repository\CreditCardRepository;
+use CaiqueMcz\AsaasPaymentGateway\Model\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\Repository\CreditCardRepository;
 
 trait CreditCardDataTrait
 {

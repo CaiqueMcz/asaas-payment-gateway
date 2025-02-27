@@ -1,6 +1,6 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Integration\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Integration\Model;
 
 interface ModelInterface
 {

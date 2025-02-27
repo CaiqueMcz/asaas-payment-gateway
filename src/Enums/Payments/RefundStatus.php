@@ -1,6 +1,6 @@
 <?php
 
-namespace AsaasPaymentGateway\Enums\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Enums\Payments;
 
 use MyCLabs\Enum\Enum;
 

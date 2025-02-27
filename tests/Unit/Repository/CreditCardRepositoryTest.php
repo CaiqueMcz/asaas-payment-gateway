@@ -1,13 +1,13 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Repository;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Repository;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Http\Client;
-use AsaasPaymentGateway\Model\CreditCard;
-use AsaasPaymentGateway\Repository\CreditCardRepository;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCard as CreditCardVO;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Http\Client;
+use CaiqueMcz\AsaasPaymentGateway\Model\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\Repository\CreditCardRepository;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard as CreditCardVO;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\MockObject\MockObject;
 

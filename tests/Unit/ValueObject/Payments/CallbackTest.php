@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\ValueObject\Payments\Callback;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Callback;
 use PHPUnit\Framework\TestCase;
 
 class CallbackTest extends TestCase

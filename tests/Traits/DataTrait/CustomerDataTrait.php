@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits\DataTrait;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits\DataTrait;
 
-use AsaasPaymentGateway\Model\Customer;
-use AsaasPaymentGateway\Repository\CustomerRepository;
-use AsaasPaymentGateway\Tests\Traits\HasFieldInfo;
+use CaiqueMcz\AsaasPaymentGateway\Model\Customer;
+use CaiqueMcz\AsaasPaymentGateway\Repository\CustomerRepository;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\HasFieldInfo;
 
 trait CustomerDataTrait
 {

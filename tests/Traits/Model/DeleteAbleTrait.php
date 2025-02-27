@@ -1,11 +1,11 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Exception\AsaasValidationException;
-use AsaasPaymentGateway\Model\AbstractModel;
-use AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasValidationException;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
 use GuzzleHttp\Exception\GuzzleException;
 
 trait DeleteAbleTrait

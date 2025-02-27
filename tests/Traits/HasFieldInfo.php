@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits;
 
-use AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
 
 trait HasFieldInfo
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Exception;
+namespace CaiqueMcz\AsaasPaymentGateway\Exception;
 
-use AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
 use Exception;
 
 class AsaasValidationException extends Exception

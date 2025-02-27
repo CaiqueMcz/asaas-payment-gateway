@@ -1,15 +1,15 @@
 <?php
 
-namespace AsaasPaymentGateway\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Model;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Helpers\CDate;
-use AsaasPaymentGateway\Traits\Model\CreateAbleTrait;
-use AsaasPaymentGateway\Traits\Model\DeleteAbleTrait;
-use AsaasPaymentGateway\Traits\Model\RestoreAbleTrait;
-use AsaasPaymentGateway\Traits\Model\UpdateAbleTrait;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCard as CreditCardValueObject;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\CDate;
+use CaiqueMcz\AsaasPaymentGateway\Traits\Model\CreateAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Traits\Model\DeleteAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Traits\Model\RestoreAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Traits\Model\UpdateAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard as CreditCardValueObject;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
 
 /**
  * Métodos mágicos para acessar atributos dinamicamente:

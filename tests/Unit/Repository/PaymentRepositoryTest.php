@@ -1,16 +1,16 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Repository;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Repository;
 
-use AsaasPaymentGateway\Enums\Payments\DocumentType;
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Helpers\Utils;
-use AsaasPaymentGateway\Http\Client;
-use AsaasPaymentGateway\Model\Payment;
-use AsaasPaymentGateway\Repository\PaymentRepository;
-use AsaasPaymentGateway\Response\ListResponse;
-use AsaasPaymentGateway\ValueObject\Payments\PaymentDocument;
-use AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\DocumentType;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Http\Client;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\Repository\PaymentRepository;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PaymentDocument;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

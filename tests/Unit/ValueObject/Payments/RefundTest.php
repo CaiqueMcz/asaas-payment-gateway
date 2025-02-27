@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\Enums\Payments\RefundStatus;
-use AsaasPaymentGateway\ValueObject\Payments\Refund;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\RefundStatus;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Refund;
 use PHPUnit\Framework\TestCase;
 
 class RefundTest extends TestCase

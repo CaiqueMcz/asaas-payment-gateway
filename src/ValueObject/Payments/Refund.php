@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments;
 
-use AsaasPaymentGateway\Enums\Payments\RefundStatus;
-use AsaasPaymentGateway\ValueObject\ArrayableInterface;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\RefundStatus;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\ArrayableInterface;
 
 class Refund implements ArrayableInterface
 {

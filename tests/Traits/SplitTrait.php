@@ -1,12 +1,12 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Helpers\Utils;
-use AsaasPaymentGateway\Model\Split;
-use AsaasPaymentGateway\Repository\SplitRepository;
-use AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Model\Split;
+use CaiqueMcz\AsaasPaymentGateway\Repository\SplitRepository;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
 
 trait SplitTrait
 {

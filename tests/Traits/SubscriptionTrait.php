@@ -1,17 +1,17 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits;
 
-use AsaasPaymentGateway\Enums\Subscriptions\SubscriptionCycle;
-use AsaasPaymentGateway\Enums\Subscriptions\SubscriptionStatus;
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Helpers\CDate;
-use AsaasPaymentGateway\Helpers\Utils;
-use AsaasPaymentGateway\Model\AbstractModel;
-use AsaasPaymentGateway\Model\Payment;
-use AsaasPaymentGateway\Model\Subscription;
-use AsaasPaymentGateway\Response\ListResponse;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Subscriptions\SubscriptionCycle;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Subscriptions\SubscriptionStatus;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\CDate;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\Utils;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\Model\Subscription;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard;
 use GuzzleHttp\Exception\GuzzleException;
 
 /**

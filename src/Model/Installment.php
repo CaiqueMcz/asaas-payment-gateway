@@ -1,21 +1,21 @@
 <?php
 
-namespace AsaasPaymentGateway\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Model;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Helpers\CDate;
-use AsaasPaymentGateway\Repository\InstallmentRepository;
-use AsaasPaymentGateway\Response\ListResponse;
-use AsaasPaymentGateway\Traits\Model\CreateAbleTrait;
-use AsaasPaymentGateway\Traits\Model\DeleteAbleTrait;
-use AsaasPaymentGateway\Traits\Model\RestoreAbleTrait;
-use AsaasPaymentGateway\Traits\Model\UpdateAbleTrait;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
-use AsaasPaymentGateway\ValueObject\Payments\Discount;
-use AsaasPaymentGateway\ValueObject\Payments\Fine;
-use AsaasPaymentGateway\ValueObject\Payments\Interest;
-use AsaasPaymentGateway\ValueObject\Payments\RefundList;
-use AsaasPaymentGateway\ValueObject\Payments\SplitList;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\CDate;
+use CaiqueMcz\AsaasPaymentGateway\Repository\InstallmentRepository;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Traits\Model\CreateAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Traits\Model\DeleteAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Traits\Model\RestoreAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Traits\Model\UpdateAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Discount;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Fine;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Interest;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\RefundList;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\SplitList;
 use GuzzleHttp\Exception\GuzzleException;
 
 /**
@@ -114,7 +114,7 @@ class Installment extends AbstractModel
         'splits' => SplitList::class,
         'authorizeOnly' => 'bool',
         'creditCardHolderInfo' => CreditCardHolderInfo::class,
-        'creditCard' => \AsaasPaymentGateway\ValueObject\Payments\CreditCard::class,
+        'creditCard' => \CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard::class,
         'refunds' => RefundList::class,
         'dueDate' => 'date',
         'dateCreated' => 'date'

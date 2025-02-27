@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Enums\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Enums\Payments;
 
-use AsaasPaymentGateway\Enums\Subscriptions\SubscriptionCycle;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Subscriptions\SubscriptionCycle;
 use MyCLabs\Enum\Enum;
 
 /**

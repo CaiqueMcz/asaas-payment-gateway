@@ -1,11 +1,11 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Integration\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Integration\Model;
 
-use AsaasPaymentGateway\Model\CreditCard;
-use AsaasPaymentGateway\Tests\Traits\CreditCardTrait;
-use AsaasPaymentGateway\Tests\Traits\DataTrait\CreditCardDataTrait;
-use AsaasPaymentGateway\Tests\Traits\GatewayTrait;
+use CaiqueMcz\AsaasPaymentGateway\Model\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\CreditCardTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\DataTrait\CreditCardDataTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\GatewayTrait;
 use PHPUnit\Framework\TestCase;
 
 class CreditCardTest extends TestCase implements ModelInterface

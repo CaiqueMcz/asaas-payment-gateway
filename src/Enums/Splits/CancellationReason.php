@@ -1,6 +1,6 @@
 <?php
 
-namespace AsaasPaymentGateway\Enums\Splits;
+namespace CaiqueMcz\AsaasPaymentGateway\Enums\Splits;
 
 use MyCLabs\Enum\Enum;
 

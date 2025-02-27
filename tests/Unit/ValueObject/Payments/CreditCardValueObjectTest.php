@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\ValueObject\Payments\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard;
 use PHPUnit\Framework\TestCase;
 
 class CreditCardValueObjectTest extends TestCase

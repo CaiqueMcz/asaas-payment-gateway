@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Response;
+namespace CaiqueMcz\AsaasPaymentGateway\Response;
 
-use AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
 
 class ListResponse
 {

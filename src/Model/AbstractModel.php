@@ -1,14 +1,14 @@
 <?php
 
-namespace AsaasPaymentGateway\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Model;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Helpers\CDate;
-use AsaasPaymentGateway\Repository\AbstractRepository;
-use AsaasPaymentGateway\Response\ListResponse;
-use AsaasPaymentGateway\Traits\Model\HasRequiredId;
-use AsaasPaymentGateway\ValueObject\ArrayableInterface;
-use AsaasPaymentGateway\ValueObject\SearchParamsBuilder;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Helpers\CDate;
+use CaiqueMcz\AsaasPaymentGateway\Repository\AbstractRepository;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Traits\Model\HasRequiredId;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\ArrayableInterface;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\SearchParamsBuilder;
 use DateTime;
 use Exception;
 use GuzzleHttp\Exception\GuzzleException;
@@ -158,7 +158,7 @@ abstract class AbstractModel implements ArrayableInterface
     public static function getRepositoryClass(): string
     {
         $reflection = new ReflectionClass(static::class);
-        return "\\AsaasPaymentGateway\\Repository\\{$reflection->getShortName()}Repository";
+        return "CaiqueMcz\\AsaasPaymentGateway\\Repository\\{$reflection->getShortName()}Repository";
     }
 
 

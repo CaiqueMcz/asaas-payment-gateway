@@ -1,6 +1,6 @@
 <?php
 
-namespace AsaasPaymentGateway\ValueObject;
+namespace CaiqueMcz\AsaasPaymentGateway\ValueObject;
 
 interface ArrayableInterface
 {

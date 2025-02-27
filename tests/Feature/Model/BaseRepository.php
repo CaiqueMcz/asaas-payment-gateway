@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Feature\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Feature\Model;
 
-use AsaasPaymentGateway\Model\AbstractModel;
-use AsaasPaymentGateway\Tests\Traits\GatewayTrait;
-use AsaasPaymentGateway\Tests\Traits\Model\CreateAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\GatewayTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model\CreateAbleTrait;
 use PHPUnit\Framework\TestCase;
 
 abstract class BaseRepository extends TestCase implements RepositoryTestInterface

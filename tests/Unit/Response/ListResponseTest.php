@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Response;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Response;
 
-use AsaasPaymentGateway\Model\AbstractModel;
-use AsaasPaymentGateway\Model\Customer;
-use AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Model\Customer;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 

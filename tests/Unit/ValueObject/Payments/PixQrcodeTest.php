@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
 use PHPUnit\Framework\TestCase;
 
 class PixQrcodeTest extends TestCase

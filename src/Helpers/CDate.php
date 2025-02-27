@@ -1,6 +1,6 @@
 <?php
 
-namespace AsaasPaymentGateway\Helpers;
+namespace CaiqueMcz\AsaasPaymentGateway\Helpers;
 
 class CDate extends \DateTime
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Model;
 
-use AsaasPaymentGateway\Enums\Payments\DiscountType;
-use AsaasPaymentGateway\Enums\Payments\FineType;
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Model\Installment;
-use AsaasPaymentGateway\ValueObject\Payments\Discount;
-use AsaasPaymentGateway\ValueObject\Payments\Fine;
-use AsaasPaymentGateway\ValueObject\Payments\Interest;
-use AsaasPaymentGateway\ValueObject\Payments\SplitList;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\DiscountType;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\FineType;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Model\Installment;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Discount;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Fine;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Interest;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\SplitList;
 use PHPUnit\Framework\TestCase;
 
 class InstallmentTest extends TestCase

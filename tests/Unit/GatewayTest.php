@@ -1,12 +1,12 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit;
 
-use AsaasPaymentGateway\Config\Configuration;
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Gateway;
-use AsaasPaymentGateway\Http\Client;
-use AsaasPaymentGateway\Tests\Traits\GatewayTrait;
+use CaiqueMcz\AsaasPaymentGateway\Config\Configuration;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Gateway;
+use CaiqueMcz\AsaasPaymentGateway\Http\Client;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\GatewayTrait;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 

@@ -19,12 +19,12 @@
       "src/Helpers/Global.php"
     ],
     "psr-4": {
-      "AsaasPaymentGateway\\": "src/"
+      "CaiqueMcz\\AsaasPaymentGateway\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "AsaasPaymentGateway\\Tests\\": "tests/"
+      "CaiqueMcz\\AsaasPaymentGateway\\Tests\\": "tests/"
     }
   },
   "scripts": {

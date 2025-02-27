@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Traits\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Traits\Model;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
 use GuzzleHttp\Exception\GuzzleException;
 
 trait RestoreAbleTrait

@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Repository\AbstractRepository;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Repository\AbstractRepository;
 
-use AsaasPaymentGateway\Model\AbstractModel;
-use AsaasPaymentGateway\ValueObject\Payments\Discount;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Discount;
 
 class TestModel extends AbstractModel
 {

@@ -1,18 +1,18 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Integration\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Integration\Model;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Exception\AsaasValidationException;
-use AsaasPaymentGateway\Model\AbstractModel;
-use AsaasPaymentGateway\Model\Customer;
-use AsaasPaymentGateway\Tests\Traits\DataTrait\CustomerDataTrait;
-use AsaasPaymentGateway\Tests\Traits\GatewayTrait;
-use AsaasPaymentGateway\Tests\Traits\Model\CreateAbleTrait;
-use AsaasPaymentGateway\Tests\Traits\Model\DeleteAbleTrait;
-use AsaasPaymentGateway\Tests\Traits\Model\RestoreAbleTrait;
-use AsaasPaymentGateway\Tests\Traits\Model\SearchAbleTrait;
-use AsaasPaymentGateway\Tests\Traits\Model\UpdateAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasValidationException;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Model\Customer;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\DataTrait\CustomerDataTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\GatewayTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model\CreateAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model\DeleteAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model\RestoreAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model\SearchAbleTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\Model\UpdateAbleTrait;
 use GuzzleHttp\Exception\GuzzleException;
 use PHPUnit\Framework\TestCase;
 

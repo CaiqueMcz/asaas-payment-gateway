@@ -1,11 +1,11 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Response;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Response;
 
-use AsaasPaymentGateway\Response\BillingInfoResponse;
-use AsaasPaymentGateway\ValueObject\Payments\BankSlip;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCard;
-use AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
+use CaiqueMcz\AsaasPaymentGateway\Response\BillingInfoResponse;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\BankSlip;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
 use PHPUnit\Framework\TestCase;
 
 class BillingInfoResponseTest extends TestCase

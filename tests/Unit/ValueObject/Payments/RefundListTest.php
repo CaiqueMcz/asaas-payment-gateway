@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\ValueObject\Payments\Refund;
-use AsaasPaymentGateway\ValueObject\Payments\RefundList;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Refund;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\RefundList;
 use PHPUnit\Framework\TestCase;
 
 class RefundListTest extends TestCase

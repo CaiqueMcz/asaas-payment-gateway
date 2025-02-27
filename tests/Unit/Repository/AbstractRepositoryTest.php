@@ -1,16 +1,16 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Repository;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Repository;
 
-use AsaasPaymentGateway\Enums\Payments\DiscountType;
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Exception\AsaasValidationException;
-use AsaasPaymentGateway\Http\Client;
-use AsaasPaymentGateway\Response\ListResponse;
-use AsaasPaymentGateway\Tests\Traits\GatewayTrait;
-use AsaasPaymentGateway\Tests\Unit\Repository\AbstractRepository\DummyRepository;
-use AsaasPaymentGateway\Tests\Unit\Repository\AbstractRepository\TestModel;
-use AsaasPaymentGateway\ValueObject\Payments\Discount;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\DiscountType;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasValidationException;
+use CaiqueMcz\AsaasPaymentGateway\Http\Client;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Traits\GatewayTrait;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Repository\AbstractRepository\DummyRepository;
+use CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Repository\AbstractRepository\TestModel;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Discount;
 use GuzzleHttp\Exception\GuzzleException;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;

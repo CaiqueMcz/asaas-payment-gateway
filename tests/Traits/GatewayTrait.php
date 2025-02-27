@@ -1,13 +1,13 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Traits;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Traits;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Gateway;
-use AsaasPaymentGateway\Http\Client;
-use AsaasPaymentGateway\Model\Split;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCard;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Gateway;
+use CaiqueMcz\AsaasPaymentGateway\Http\Client;
+use CaiqueMcz\AsaasPaymentGateway\Model\Split;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo;
 use Faker\Factory;
 use Random\RandomException;
 

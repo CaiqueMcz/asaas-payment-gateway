@@ -1,11 +1,11 @@
 <?php
 
-namespace AsaasPaymentGateway\Response;
+namespace CaiqueMcz\AsaasPaymentGateway\Response;
 
-use AsaasPaymentGateway\ValueObject\ArrayableInterface;
-use AsaasPaymentGateway\ValueObject\Payments\BankSlip;
-use AsaasPaymentGateway\ValueObject\Payments\CreditCard;
-use AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\ArrayableInterface;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\BankSlip;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\PixQrcode;
 
 class BillingInfoResponse implements ArrayableInterface
 {

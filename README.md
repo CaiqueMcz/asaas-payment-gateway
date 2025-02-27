@@ -12,7 +12,7 @@ composer require caiquemcz/asaas-payment-gateway
 Para começar a usar a biblioteca, é necessário inicializar o Gateway com suas credenciais:
 
 ```php
-use AsaasPaymentGateway\Gateway;
+use CaiqueMcz\AsaasPaymentGateway\Gateway;
 
 // Inicializa o Gateway (ambiente: 'sandbox' ou 'production')
 Gateway::init('sua_api_key', 'seu_webhook_token', 'sandbox');
@@ -23,7 +23,7 @@ Gateway::init('sua_api_key', 'seu_webhook_token', 'sandbox');
 ### Cliente (Customer)
 
 ```php
-use AsaasPaymentGateway\Model\Customer;
+use CaiqueMcz\AsaasPaymentGateway\Model\Customer;
 
 // Criar um cliente
 $customer = Customer::create([
@@ -67,7 +67,7 @@ $customer->delete();
 $customer->restore();
 
 // Tokenizar cartão de crédito para o cliente
-$creditCard = new \AsaasPaymentGateway\ValueObject\Payments\CreditCard(
+$creditCard = new \CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard(
     '4111111111111111',
     'João Silva',
     '12',
@@ -75,7 +75,7 @@ $creditCard = new \AsaasPaymentGateway\ValueObject\Payments\CreditCard(
     '123'
 );
 
-$holderInfo = new \AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo(
+$holderInfo = new \CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo(
     'João Silva',
     'joao@exemplo.com',
     '12345678901',
@@ -92,14 +92,14 @@ $tokenizedCard = $customer->tokenizeCreditCard($creditCard, $holderInfo, '127.0.
 ### Cobrança (Payment)
 
 ```php
-use AsaasPaymentGateway\Model\Payment;
-use AsaasPaymentGateway\Enums\Payments\BillingType;
-use AsaasPaymentGateway\Enums\Payments\DiscountType;
-use AsaasPaymentGateway\ValueObject\Payments\Discount;
-use AsaasPaymentGateway\ValueObject\Payments\Fine;
-use AsaasPaymentGateway\ValueObject\Payments\Interest;
-use AsaasPaymentGateway\ValueObject\Payments\SplitList;
-use AsaasPaymentGateway\Model\Split;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\BillingType;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\DiscountType;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Discount;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Fine;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Interest;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\SplitList;
+use CaiqueMcz\AsaasPaymentGateway\Model\Split;
 
 // Criar uma cobrança simples
 $payment = Payment::create([
@@ -127,7 +127,7 @@ $payment = Payment::create([
     'value' => 100.00,
     'dueDate' => '2025-12-31',
     'description' => 'Cobrança com multa e juros',
-    'fine' => new Fine(5.0, \AsaasPaymentGateway\Enums\Payments\FineType::PERCENTAGE()),
+    'fine' => new Fine(5.0, \CaiqueMcz\AsaasPaymentGateway\Enums\Payments\FineType::PERCENTAGE()),
     'interest' => new Interest(2.5)
 ]);
 
@@ -149,7 +149,7 @@ $payment = Payment::create([
 ]);
 
 // Criar cobrança com cartão de crédito
-$creditCard = new \AsaasPaymentGateway\ValueObject\Payments\CreditCard(
+$creditCard = new \CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard(
     '4111111111111111',
     'João Silva',
     '12',
@@ -157,7 +157,7 @@ $creditCard = new \AsaasPaymentGateway\ValueObject\Payments\CreditCard(
     '123'
 );
 
-$holderInfo = new \AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo(
+$holderInfo = new \CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo(
     'João Silva',
     'joao@exemplo.com',
     '12345678901',
@@ -255,8 +255,8 @@ $payment->bankSlipRefund();
 ### Parcelamento (Installment)
 
 ```php
-use AsaasPaymentGateway\Model\Installment;
-use AsaasPaymentGateway\Enums\Payments\BillingType;
+use CaiqueMcz\AsaasPaymentGateway\Model\Installment;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\BillingType;
 
 // Criar um parcelamento
 $installment = Installment::create([
@@ -304,10 +304,10 @@ $installment->refund();
 ### Assinatura (Subscription)
 
 ```php
-use AsaasPaymentGateway\Model\Subscription;
-use AsaasPaymentGateway\Enums\Payments\BillingType;
-use AsaasPaymentGateway\Enums\Subscriptions\SubscriptionCycle;
-use AsaasPaymentGateway\Enums\Subscriptions\SubscriptionStatus;
+use CaiqueMcz\AsaasPaymentGateway\Model\Subscription;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\BillingType;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Subscriptions\SubscriptionCycle;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Subscriptions\SubscriptionStatus;
 
 // Criar uma assinatura
 $subscription = Subscription::create([
@@ -364,7 +364,7 @@ $paymentBookUrl = $subscription->getPaymentBook();
 ### Split (Divisão de Pagamentos)
 
 ```php
-use AsaasPaymentGateway\Model\Split;
+use CaiqueMcz\AsaasPaymentGateway\Model\Split;
 
 // Obter split por ID
 $split = Split::getPaid('split_123456789');
@@ -402,7 +402,7 @@ $customer = Customer::create([
 
 // Criar uma cobrança com desconto, multa, juros e split
 $discount = new Discount(10.0, 5, DiscountType::PERCENTAGE()); // 10% de desconto se pagar até 5 dias antes
-$fine = new Fine(2.0, \AsaasPaymentGateway\Enums\Payments\FineType::PERCENTAGE()); // 2% de multa por atraso
+$fine = new Fine(2.0, \CaiqueMcz\AsaasPaymentGateway\Enums\Payments\FineType::PERCENTAGE()); // 2% de multa por atraso
 $interest = new Interest(1.0); // 1% de juros ao mês por atraso
 
 $splitList = new SplitList();
@@ -448,7 +448,7 @@ $customer = Customer::create([
 ]);
 
 // Tokenizar cartão
-$creditCard = new \AsaasPaymentGateway\ValueObject\Payments\CreditCard(
+$creditCard = new \CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard(
     '5555555555554444',
     'Maria Oliveira',
     '01',
@@ -456,7 +456,7 @@ $creditCard = new \AsaasPaymentGateway\ValueObject\Payments\CreditCard(
     '123'
 );
 
-$holderInfo = new \AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo(
+$holderInfo = new \CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo(
     'Maria Oliveira',
     'maria@exemplo.com',
     '98765432109',
@@ -492,7 +492,7 @@ foreach ($payments->getRows() as $payment) {
 
 ```php
 // Criar parcelamento com cartão
-$creditCard = new \AsaasPaymentGateway\ValueObject\Payments\CreditCard(
+$creditCard = new \CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCard(
     '4111111111111111',
     'Carlos Pereira',
     '12',
@@ -500,7 +500,7 @@ $creditCard = new \AsaasPaymentGateway\ValueObject\Payments\CreditCard(
     '123'
 );
 
-$holderInfo = new \AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo(
+$holderInfo = new \CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\CreditCardHolderInfo(
     'Carlos Pereira',
     'carlos@exemplo.com',
     '11122233344',
@@ -536,9 +536,9 @@ $payments = $installment->getPayments();
 ## Tratamento de Erros
 
 ```php
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Exception\AsaasValidationException;
-use AsaasPaymentGateway\Exception\AsaasPageNotFoundException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasValidationException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasPageNotFoundException;
 
 try {
     $customer = Customer::getById('cus_id_inexistente');

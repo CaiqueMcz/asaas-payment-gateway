@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Traits\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Traits\Model;
 
-use AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
 
 trait HasRequiredId
 {

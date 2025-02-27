@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\Enums\Payments\FineType;
-use AsaasPaymentGateway\ValueObject\Payments\Fine;
+use CaiqueMcz\AsaasPaymentGateway\Enums\Payments\FineType;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Fine;
 use PHPUnit\Framework\TestCase;
 
 class FineTest extends TestCase

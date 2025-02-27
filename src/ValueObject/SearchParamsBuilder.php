@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\ValueObject;
+namespace CaiqueMcz\AsaasPaymentGateway\ValueObject;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Model\AbstractModel;
-use AsaasPaymentGateway\Response\ListResponse;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Model\AbstractModel;
+use CaiqueMcz\AsaasPaymentGateway\Response\ListResponse;
 
 class SearchParamsBuilder
 {

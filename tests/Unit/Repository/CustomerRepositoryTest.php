@@ -1,11 +1,11 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Repository;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Repository;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Http\Client;
-use AsaasPaymentGateway\Model\Customer;
-use AsaasPaymentGateway\Repository\CustomerRepository;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Http\Client;
+use CaiqueMcz\AsaasPaymentGateway\Model\Customer;
+use CaiqueMcz\AsaasPaymentGateway\Repository\CustomerRepository;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

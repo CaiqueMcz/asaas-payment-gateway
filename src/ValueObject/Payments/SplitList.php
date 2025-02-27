@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments;
 
-use AsaasPaymentGateway\Exception\AsaasException;
-use AsaasPaymentGateway\Model\Split;
-use AsaasPaymentGateway\ValueObject\ArrayableInterface;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Model\Split;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\ArrayableInterface;
 
 class SplitList implements ArrayableInterface
 {

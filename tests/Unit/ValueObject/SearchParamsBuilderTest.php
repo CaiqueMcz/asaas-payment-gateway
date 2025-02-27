@@ -1,9 +1,9 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject;
 
-use AsaasPaymentGateway\ValueObject\SearchParamsBuilder;
-use AsaasPaymentGateway\Model\Payment;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\SearchParamsBuilder;
+use CaiqueMcz\AsaasPaymentGateway\Model\Payment;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 

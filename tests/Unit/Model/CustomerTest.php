@@ -1,10 +1,10 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\Model;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\Model;
 
 use PHPUnit\Framework\TestCase;
-use AsaasPaymentGateway\Model\Customer;
-use AsaasPaymentGateway\Exception\AsaasException;
+use CaiqueMcz\AsaasPaymentGateway\Model\Customer;
+use CaiqueMcz\AsaasPaymentGateway\Exception\AsaasException;
 
 class CustomerTest extends TestCase
 {

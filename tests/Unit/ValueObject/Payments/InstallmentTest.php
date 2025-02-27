@@ -1,8 +1,8 @@
 <?php
 
-namespace AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
+namespace CaiqueMcz\AsaasPaymentGateway\Tests\Unit\ValueObject\Payments;
 
-use AsaasPaymentGateway\ValueObject\Payments\Installment;
+use CaiqueMcz\AsaasPaymentGateway\ValueObject\Payments\Installment;
 use PHPUnit\Framework\TestCase;
 
 class InstallmentTest extends TestCase
